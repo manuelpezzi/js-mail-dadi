@@ -49,3 +49,10 @@ if (emailTrovata) {
 } else {
     console.log("peccato sarà per la prossima festa")
 }
+
+
+//dado casuale
+/*
+1-crare un dado per il giocatore ed uno per il computer con il math.floor e il math.random con questa formula math.floor(math.random()*6)+1
+2-creare un console.log con il punteggio del giocatore e uno col punteggio del computer
+3-creare gli if per decretare il vincitore!
