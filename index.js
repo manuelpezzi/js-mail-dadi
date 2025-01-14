@@ -57,5 +57,16 @@ if (emailTrovata) {
 2-creare un console.log con il punteggio del giocatore e uno col punteggio del computer
 3-creare gli if per decretare il vincitore!
  */
-let punteggioDadoGiocatore = Math.floor(Math.random() * 6) + 1
-let punteggioDadoComputer = Math.floor(Math.random() * 6) + 1
+let punteggioDadoGiocatore = Math.floor(Math.random() * 6) + 1 //punteggio giocatore
+let punteggioDadoComputer = Math.floor(Math.random() * 6) + 1 // punteggio computer
+
+console.log(punteggioDadoGiocatore)
+console.log(punteggioDadoComputer)
+
+if (punteggioDadoGiocatore > punteggioDadoComputer) {
+    console.log("il giocatore ha vinto")
+} else if (punteggioDadoComputer > punteggioDadoGiocatore) {
+    console.log("il computer ha vinto")
+} else {
+    console.log("è patta")
+}
